@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: http: ws:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: file: blob:; connect-src 'self' ws: http:;" />
+    <title>DayCanvas — Live Interactive Desktop Wallpaper</title>
+  </head>
+  <body class="bg-[#0B1020] text-canvas-text antialiased selection:bg-canvas-accent selection:text-white select-none overflow-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/renderer/src/main.tsx"></script>
+  </body>
+</html>

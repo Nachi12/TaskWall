@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build Outputs
+dist/
+dist-electron/
+release/
+build/
+
+# Local databases & app data
+*.db
+*.db-shm
+*.db-wal
+.daycanvas-data/
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
