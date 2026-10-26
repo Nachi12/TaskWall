@@ -1,4 +1,4 @@
-# DayCanvas — Interactive Calendar & Task Desktop Wallpaper
+# TaskWall — Interactive Calendar & Task Desktop Wallpaper
 
 > **DayCanvas** transforms your desktop wallpaper into a beautiful, customizable, interactive calendar and task management workspace for macOS and Windows.
 
